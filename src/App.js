@@ -8,6 +8,9 @@ import car6 from './img/car6.jpg';
 import car7 from './img/car7.jpg';
 import car8 from './img/car8.jpg';
 import car9 from './img/car9.jpg';
+import car10 from './img/car10.jpg';
+import car11 from './img/car11.jpg';
+import car12 from './img/car12.jpg';
 import './App.css';
 
 class App extends Component {
@@ -17,7 +20,7 @@ class App extends Component {
       value:'',
       score:0,
       highScore:0,
-      imgArr:[car1, car2, car3, car4, car5, car6, car7, car8, car9],
+      imgArr:[car1, car2, car3, car4, car5, car6, car7, car8, car9, car10, car11, car12],
       clickedArr:[],
       message: 'Click on any Picture to begin.. Dont forget it!'
     }
@@ -82,7 +85,7 @@ class App extends Component {
         if(this.state.highScore<this.state.score){
           this.setState({highScore:this.state.score});
         }
-        if(this.state.score === 9){
+        if(this.state.score === 12){
           this.setState({message: 'CONGRATS, YOU HAVE WON!! play again.'})
 
           setTimeout(()=> {
@@ -111,14 +114,17 @@ class App extends Component {
         </p>
         <img src={this.state.imgArr[1]}  alt='car' onClick={this.handleClick}/>
         <img src={this.state.imgArr[2]}  alt='car' onClick={this.handleClick}/>
+        <img src={this.state.imgArr[11]}  alt='car' onClick={this.handleClick}/>
         <img src={this.state.imgArr[3]}  alt='car' onClick={this.handleClick}/>
         <br/>
         <img src={this.state.imgArr[4]}  alt='car' onClick={this.handleClick}/>
+        <img src={this.state.imgArr[10]}  alt='car' onClick={this.handleClick}/>
         <img src={this.state.imgArr[5]}  alt='car' onClick={this.handleClick}/>
         <img src={this.state.imgArr[6]}  alt='car' onClick={this.handleClick}/>
         <br/>
 
-        <img src={this.state.imgArr[7]}  alt='car' onClick={this.handleClick} />
+        <img src={this.state.imgArr[2]}  alt='car' onClick={this.handleClick}/>
+        <img src={this.state.imgArr[9]}  alt='car' onClick={this.handleClick} />
         <img src={this.state.imgArr[8]}  alt='car' onClick={this.handleClick}/>
         <img src={this.state.imgArr[0]}  alt='car' onClick={this.handleClick}/>
 
