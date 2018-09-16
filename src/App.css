@@ -8,12 +8,18 @@ body {
 
 img {
   height: 150px;
-  padding: 5px;
+  margin-left:4.1px;
+  margin-right: 4.1px;
+  margin-bottom: 4px;
+
+  padding: 0px;
   border-radius: 20px;
   position: static;
+  border :5px solid #f1f1f1;
 }
 img:hover {
   transform: scale(1.1);
+  border:5px solid gold;
 }
 
 .App-header {
