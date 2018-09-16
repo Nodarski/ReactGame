@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(132, 174, 211);
+}
+
+img {
+  height: 150px;
+  padding: 5px;
+  border-radius: 20px;
+  position: static;
+}
+img:hover {
+  transform: scale(1.1);
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: x-large;
+}
+
+
