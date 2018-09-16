@@ -54,7 +54,7 @@ class App extends Component {
 
   includes(k) {
     for(var i=0; i < this.state.clickedArr.length; i++){
-      if( this.state.clickedArr[i] === k || ( this.state.clickedArr[i] !== this.state.clickedArr[i] && k !== k ) ){
+      if( this.state.clickedArr[i] === k  ){
         return true;
       }
     }
@@ -123,7 +123,7 @@ class App extends Component {
         <img src={this.state.imgArr[6]}  alt='car' onClick={this.handleClick}/>
         <br/>
 
-        <img src={this.state.imgArr[2]}  alt='car' onClick={this.handleClick}/>
+        <img src={this.state.imgArr[7]}  alt='car' onClick={this.handleClick}/>
         <img src={this.state.imgArr[9]}  alt='car' onClick={this.handleClick} />
         <img src={this.state.imgArr[8]}  alt='car' onClick={this.handleClick}/>
         <img src={this.state.imgArr[0]}  alt='car' onClick={this.handleClick}/>
