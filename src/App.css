@@ -1,9 +1,7 @@
-.App {
-  text-align: center;
-}
+
 
 body {
-  background-color: rgb(132, 174, 211);
+  background-color: rgb(63, 0, 100);
 }
 
 img {
@@ -22,8 +20,12 @@ img:hover {
   border:5px solid gold;
 }
 
+.App {
+  text-align: center;
+}
+
 .App-header {
-  background-color: #222;
+  background-color: rgb(0, 0, 0);
   height: 100px;
   padding: 20px;
   color: white;
